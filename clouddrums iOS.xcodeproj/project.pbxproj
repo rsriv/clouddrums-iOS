@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA3B9231D495A58006D4B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9221D495A58006D4B9B /* AppDelegate.swift */; };
+		5BA3B9251D495A58006D4B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9241D495A58006D4B9B /* ViewController.swift */; };
+		5BA3B9281D495A58006D4B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9261D495A58006D4B9B /* Main.storyboard */; };
+		5BA3B92A1D495A58006D4B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9291D495A58006D4B9B /* Assets.xcassets */; };
+		5BA3B92D1D495A58006D4B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B92B1D495A58006D4B9B /* LaunchScreen.storyboard */; };
+		5BA3B9381D495A58006D4B9B /* clouddrums_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9371D495A58006D4B9B /* clouddrums_iOSTests.swift */; };
+		5BA3B9431D495A58006D4B9B /* clouddrums_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9421D495A58006D4B9B /* clouddrums_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA3B9341D495A58006D4B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA3B9171D495A58006D4B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA3B91E1D495A58006D4B9B;
+			remoteInfo = "clouddrums iOS";
+		};
+		5BA3B93F1D495A58006D4B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA3B9171D495A58006D4B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA3B91E1D495A58006D4B9B;
+			remoteInfo = "clouddrums iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BA3B91F1D495A58006D4B9B /* clouddrums iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clouddrums iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA3B9221D495A58006D4B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BA3B9241D495A58006D4B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BA3B9271D495A58006D4B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BA3B9291D495A58006D4B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA3B92C1D495A58006D4B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BA3B92E1D495A58006D4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA3B9331D495A58006D4B9B /* clouddrums iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clouddrums iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA3B9371D495A58006D4B9B /* clouddrums_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clouddrums_iOSTests.swift; sourceTree = "<group>"; };
+		5BA3B9391D495A58006D4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA3B93E1D495A58006D4B9B /* clouddrums iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clouddrums iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA3B9421D495A58006D4B9B /* clouddrums_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clouddrums_iOSUITests.swift; sourceTree = "<group>"; };
+		5BA3B9441D495A58006D4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA3B91C1D495A58006D4B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B9301D495A58006D4B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B93B1D495A58006D4B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA3B9161D495A58006D4B9B = {
+			isa = PBXGroup;
+			children = (
+				5BA3B9211D495A58006D4B9B /* clouddrums iOS */,
+				5BA3B9361D495A58006D4B9B /* clouddrums iOSTests */,
+				5BA3B9411D495A58006D4B9B /* clouddrums iOSUITests */,
+				5BA3B9201D495A58006D4B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA3B9201D495A58006D4B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3B91F1D495A58006D4B9B /* clouddrums iOS.app */,
+				5BA3B9331D495A58006D4B9B /* clouddrums iOSTests.xctest */,
+				5BA3B93E1D495A58006D4B9B /* clouddrums iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA3B9211D495A58006D4B9B /* clouddrums iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3B9221D495A58006D4B9B /* AppDelegate.swift */,
+				5BA3B9241D495A58006D4B9B /* ViewController.swift */,
+				5BA3B9261D495A58006D4B9B /* Main.storyboard */,
+				5BA3B9291D495A58006D4B9B /* Assets.xcassets */,
+				5BA3B92B1D495A58006D4B9B /* LaunchScreen.storyboard */,
+				5BA3B92E1D495A58006D4B9B /* Info.plist */,
+			);
+			path = "clouddrums iOS";
+			sourceTree = "<group>";
+		};
+		5BA3B9361D495A58006D4B9B /* clouddrums iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3B9371D495A58006D4B9B /* clouddrums_iOSTests.swift */,
+				5BA3B9391D495A58006D4B9B /* Info.plist */,
+			);
+			path = "clouddrums iOSTests";
+			sourceTree = "<group>";
+		};
+		5BA3B9411D495A58006D4B9B /* clouddrums iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3B9421D495A58006D4B9B /* clouddrums_iOSUITests.swift */,
+				5BA3B9441D495A58006D4B9B /* Info.plist */,
+			);
+			path = "clouddrums iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA3B91E1D495A58006D4B9B /* clouddrums iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA3B9471D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOS" */;
+			buildPhases = (
+				5BA3B91B1D495A58006D4B9B /* Sources */,
+				5BA3B91C1D495A58006D4B9B /* Frameworks */,
+				5BA3B91D1D495A58006D4B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clouddrums iOS";
+			productName = "clouddrums iOS";
+			productReference = 5BA3B91F1D495A58006D4B9B /* clouddrums iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA3B9321D495A58006D4B9B /* clouddrums iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA3B94A1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSTests" */;
+			buildPhases = (
+				5BA3B92F1D495A58006D4B9B /* Sources */,
+				5BA3B9301D495A58006D4B9B /* Frameworks */,
+				5BA3B9311D495A58006D4B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA3B9351D495A58006D4B9B /* PBXTargetDependency */,
+			);
+			name = "clouddrums iOSTests";
+			productName = "clouddrums iOSTests";
+			productReference = 5BA3B9331D495A58006D4B9B /* clouddrums iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BA3B93D1D495A58006D4B9B /* clouddrums iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA3B94D1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSUITests" */;
+			buildPhases = (
+				5BA3B93A1D495A58006D4B9B /* Sources */,
+				5BA3B93B1D495A58006D4B9B /* Frameworks */,
+				5BA3B93C1D495A58006D4B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA3B9401D495A58006D4B9B /* PBXTargetDependency */,
+			);
+			name = "clouddrums iOSUITests";
+			productName = "clouddrums iOSUITests";
+			productReference = 5BA3B93E1D495A58006D4B9B /* clouddrums iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA3B9171D495A58006D4B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rishi Srivastava";
+				TargetAttributes = {
+					5BA3B91E1D495A58006D4B9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5BA3B9321D495A58006D4B9B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5BA3B91E1D495A58006D4B9B;
+					};
+					5BA3B93D1D495A58006D4B9B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5BA3B91E1D495A58006D4B9B;
+					};
+				};
+			};
+			buildConfigurationList = 5BA3B91A1D495A58006D4B9B /* Build configuration list for PBXProject "clouddrums iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA3B9161D495A58006D4B9B;
+			productRefGroup = 5BA3B9201D495A58006D4B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA3B91E1D495A58006D4B9B /* clouddrums iOS */,
+				5BA3B9321D495A58006D4B9B /* clouddrums iOSTests */,
+				5BA3B93D1D495A58006D4B9B /* clouddrums iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA3B91D1D495A58006D4B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3B92D1D495A58006D4B9B /* LaunchScreen.storyboard in Resources */,
+				5BA3B92A1D495A58006D4B9B /* Assets.xcassets in Resources */,
+				5BA3B9281D495A58006D4B9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B9311D495A58006D4B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B93C1D495A58006D4B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA3B91B1D495A58006D4B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3B9251D495A58006D4B9B /* ViewController.swift in Sources */,
+				5BA3B9231D495A58006D4B9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B92F1D495A58006D4B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3B9381D495A58006D4B9B /* clouddrums_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3B93A1D495A58006D4B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3B9431D495A58006D4B9B /* clouddrums_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA3B9351D495A58006D4B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA3B91E1D495A58006D4B9B /* clouddrums iOS */;
+			targetProxy = 5BA3B9341D495A58006D4B9B /* PBXContainerItemProxy */;
+		};
+		5BA3B9401D495A58006D4B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA3B91E1D495A58006D4B9B /* clouddrums iOS */;
+			targetProxy = 5BA3B93F1D495A58006D4B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA3B9261D495A58006D4B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA3B9271D495A58006D4B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BA3B92B1D495A58006D4B9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA3B92C1D495A58006D4B9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA3B9451D495A58006D4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA3B9461D495A58006D4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA3B9481D495A58006D4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "clouddrums iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA3B9491D495A58006D4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "clouddrums iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BA3B94B1D495A58006D4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "clouddrums iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clouddrums iOS.app/clouddrums iOS";
+			};
+			name = Debug;
+		};
+		5BA3B94C1D495A58006D4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "clouddrums iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clouddrums iOS.app/clouddrums iOS";
+			};
+			name = Release;
+		};
+		5BA3B94E1D495A58006D4B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "clouddrums iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "clouddrums iOS";
+			};
+			name = Debug;
+		};
+		5BA3B94F1D495A58006D4B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "clouddrums iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "clouddrums iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA3B91A1D495A58006D4B9B /* Build configuration list for PBXProject "clouddrums iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3B9451D495A58006D4B9B /* Debug */,
+				5BA3B9461D495A58006D4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA3B9471D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3B9481D495A58006D4B9B /* Debug */,
+				5BA3B9491D495A58006D4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA3B94A1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3B94B1D495A58006D4B9B /* Debug */,
+				5BA3B94C1D495A58006D4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA3B94D1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3B94E1D495A58006D4B9B /* Debug */,
+				5BA3B94F1D495A58006D4B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA3B9171D495A58006D4B9B /* Project object */;
+}
