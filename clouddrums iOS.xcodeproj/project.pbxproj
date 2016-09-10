@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3677621D6B758D00930382 /* hiphopkick.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3677611D6B758D00930382 /* hiphopkick.caf */; };
+		5B3677641D6B75F700930382 /* hiphopsnare.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3677631D6B75F700930382 /* hiphopsnare.caf */; };
+		5B3677661D6B760300930382 /* hiphophat.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5B3677651D6B760300930382 /* hiphophat.caf */; };
+		5B36776C1D6B782100930382 /* hiphopkick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5B36776B1D6B782100930382 /* hiphopkick.aiff */; };
 		5BA3B9231D495A58006D4B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9221D495A58006D4B9B /* AppDelegate.swift */; };
 		5BA3B9251D495A58006D4B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9241D495A58006D4B9B /* ViewController.swift */; };
 		5BA3B9281D495A58006D4B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9261D495A58006D4B9B /* Main.storyboard */; };
-		5BA3B92A1D495A58006D4B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9291D495A58006D4B9B /* Assets.xcassets */; };
+		5BA3B92A1D495A58006D4B9B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9291D495A58006D4B9B /* icon.png */; };
 		5BA3B92D1D495A58006D4B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B92B1D495A58006D4B9B /* LaunchScreen.storyboard */; };
 		5BA3B9381D495A58006D4B9B /* clouddrums_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9371D495A58006D4B9B /* clouddrums_iOSTests.swift */; };
 		5BA3B9431D495A58006D4B9B /* clouddrums_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3B9421D495A58006D4B9B /* clouddrums_iOSUITests.swift */; };
+		5BA3B9521D495D2E006D4B9B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9501D495D2E006D4B9B /* back.png */; };
+		5BA3B9551D495D8D006D4B9B /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B9541D495D8D006D4B9B /* title.png */; };
+		5BA59F291D5126F2006E9EB0 /* bongohigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F1F1D5126F2006E9EB0 /* bongohigh.mp3 */; };
+		5BA59F2A1D5126F2006E9EB0 /* bongolow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F201D5126F2006E9EB0 /* bongolow.mp3 */; };
+		5BA59F2B1D5126F2006E9EB0 /* bongomid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F211D5126F2006E9EB0 /* bongomid.mp3 */; };
+		5BA59F2C1D5126F2006E9EB0 /* hiphophat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F221D5126F2006E9EB0 /* hiphophat.mp3 */; };
+		5BA59F2D1D5126F2006E9EB0 /* hiphopkick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F231D5126F2006E9EB0 /* hiphopkick.mp3 */; };
+		5BA59F2E1D5126F2006E9EB0 /* hiphopsnare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F241D5126F2006E9EB0 /* hiphopsnare.mp3 */; };
+		5BA59F2F1D5126F2006E9EB0 /* rockhat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F251D5126F2006E9EB0 /* rockhat.mp3 */; };
+		5BA59F301D5126F2006E9EB0 /* rockkick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F261D5126F2006E9EB0 /* rockkick.mp3 */; };
+		5BA59F311D5126F2006E9EB0 /* rockride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F271D5126F2006E9EB0 /* rockride.mp3 */; };
+		5BA59F321D5126F2006E9EB0 /* rocksnare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA59F281D5126F2006E9EB0 /* rocksnare.mp3 */; };
+		5BBEBA171D66A25F00B51E3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBA161D66A25F00B51E3F /* icon.png */; };
+		5BBEBA191D66A52E00B51E3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBA181D66A52E00B51E3F /* icon.png */; };
+		5BBEBA1B1D66A68B00B51E3F /* Images-3.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBA1A1D66A68B00B51E3F /* Images-3.xcassets */; };
+		5BBEBA1F1D66A7EE00B51E3F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBA1E1D66A7EE00B51E3F /* icon.png */; };
+		5BBEBA211D66A90E00B51E3F /* icon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBA201D66A90E00B51E3F /* icon 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +55,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B3677611D6B758D00930382 /* hiphopkick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiphopkick.caf; path = "clouddrums iOS/hiphopkick.caf"; sourceTree = "<group>"; };
+		5B3677631D6B75F700930382 /* hiphopsnare.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiphopsnare.caf; path = "clouddrums iOS/hiphopsnare.caf"; sourceTree = "<group>"; };
+		5B3677651D6B760300930382 /* hiphophat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiphophat.caf; path = "clouddrums iOS/hiphophat.caf"; sourceTree = "<group>"; };
+		5B36776B1D6B782100930382 /* hiphopkick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = hiphopkick.aiff; path = "clouddrums iOS/hiphopkick.aiff"; sourceTree = "<group>"; };
 		5BA3B91F1D495A58006D4B9B /* clouddrums iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clouddrums iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3B9221D495A58006D4B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA3B9241D495A58006D4B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BA3B9271D495A58006D4B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BA3B9291D495A58006D4B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA3B9291D495A58006D4B9B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		5BA3B92C1D495A58006D4B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA3B92E1D495A58006D4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA3B9331D495A58006D4B9B /* clouddrums iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clouddrums iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +72,23 @@
 		5BA3B93E1D495A58006D4B9B /* clouddrums iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clouddrums iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA3B9421D495A58006D4B9B /* clouddrums_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clouddrums_iOSUITests.swift; sourceTree = "<group>"; };
 		5BA3B9441D495A58006D4B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA3B9501D495D2E006D4B9B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5BA3B9541D495D8D006D4B9B /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = "clouddrums iOS/title.png"; sourceTree = "<group>"; };
+		5BA59F1F1D5126F2006E9EB0 /* bongohigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bongohigh.mp3; path = "clouddrums iOS/bongohigh.mp3"; sourceTree = "<group>"; };
+		5BA59F201D5126F2006E9EB0 /* bongolow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bongolow.mp3; path = "clouddrums iOS/bongolow.mp3"; sourceTree = "<group>"; };
+		5BA59F211D5126F2006E9EB0 /* bongomid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bongomid.mp3; path = "clouddrums iOS/bongomid.mp3"; sourceTree = "<group>"; };
+		5BA59F221D5126F2006E9EB0 /* hiphophat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hiphophat.mp3; path = "clouddrums iOS/hiphophat.mp3"; sourceTree = "<group>"; };
+		5BA59F231D5126F2006E9EB0 /* hiphopkick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hiphopkick.mp3; path = "clouddrums iOS/hiphopkick.mp3"; sourceTree = "<group>"; };
+		5BA59F241D5126F2006E9EB0 /* hiphopsnare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hiphopsnare.mp3; path = "clouddrums iOS/hiphopsnare.mp3"; sourceTree = "<group>"; };
+		5BA59F251D5126F2006E9EB0 /* rockhat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rockhat.mp3; path = "clouddrums iOS/rockhat.mp3"; sourceTree = "<group>"; };
+		5BA59F261D5126F2006E9EB0 /* rockkick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rockkick.mp3; path = "clouddrums iOS/rockkick.mp3"; sourceTree = "<group>"; };
+		5BA59F271D5126F2006E9EB0 /* rockride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rockride.mp3; path = "clouddrums iOS/rockride.mp3"; sourceTree = "<group>"; };
+		5BA59F281D5126F2006E9EB0 /* rocksnare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rocksnare.mp3; path = "clouddrums iOS/rocksnare.mp3"; sourceTree = "<group>"; };
+		5BBEBA161D66A25F00B51E3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5BBEBA181D66A52E00B51E3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5BBEBA1A1D66A68B00B51E3F /* Images-3.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-3.xcassets"; sourceTree = "<group>"; };
+		5BBEBA1E1D66A7EE00B51E3F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "clouddrums iOS/icon.png"; sourceTree = "<group>"; };
+		5BBEBA201D66A90E00B51E3F /* icon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon 2.png"; path = "clouddrums iOS/icon 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +123,24 @@
 				5BA3B9361D495A58006D4B9B /* clouddrums iOSTests */,
 				5BA3B9411D495A58006D4B9B /* clouddrums iOSUITests */,
 				5BA3B9201D495A58006D4B9B /* Products */,
+				5BA3B9501D495D2E006D4B9B /* back.png */,
+				5BA3B9541D495D8D006D4B9B /* title.png */,
+				5BBEBA1E1D66A7EE00B51E3F /* icon.png */,
+				5BBEBA201D66A90E00B51E3F /* icon 2.png */,
+				5B36776B1D6B782100930382 /* hiphopkick.aiff */,
+				5B3677611D6B758D00930382 /* hiphopkick.caf */,
+				5B3677631D6B75F700930382 /* hiphopsnare.caf */,
+				5B3677651D6B760300930382 /* hiphophat.caf */,
+				5BA59F1F1D5126F2006E9EB0 /* bongohigh.mp3 */,
+				5BA59F201D5126F2006E9EB0 /* bongolow.mp3 */,
+				5BA59F211D5126F2006E9EB0 /* bongomid.mp3 */,
+				5BA59F221D5126F2006E9EB0 /* hiphophat.mp3 */,
+				5BA59F231D5126F2006E9EB0 /* hiphopkick.mp3 */,
+				5BA59F241D5126F2006E9EB0 /* hiphopsnare.mp3 */,
+				5BA59F251D5126F2006E9EB0 /* rockhat.mp3 */,
+				5BA59F261D5126F2006E9EB0 /* rockkick.mp3 */,
+				5BA59F271D5126F2006E9EB0 /* rockride.mp3 */,
+				5BA59F281D5126F2006E9EB0 /* rocksnare.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +160,12 @@
 				5BA3B9221D495A58006D4B9B /* AppDelegate.swift */,
 				5BA3B9241D495A58006D4B9B /* ViewController.swift */,
 				5BA3B9261D495A58006D4B9B /* Main.storyboard */,
-				5BA3B9291D495A58006D4B9B /* Assets.xcassets */,
+				5BA3B9291D495A58006D4B9B /* icon.png */,
 				5BA3B92B1D495A58006D4B9B /* LaunchScreen.storyboard */,
 				5BA3B92E1D495A58006D4B9B /* Info.plist */,
+				5BBEBA161D66A25F00B51E3F /* icon.png */,
+				5BBEBA181D66A52E00B51E3F /* icon.png */,
+				5BBEBA1A1D66A68B00B51E3F /* Images-3.xcassets */,
 			);
 			path = "clouddrums iOS";
 			sourceTree = "<group>";
@@ -193,6 +256,7 @@
 				TargetAttributes = {
 					5BA3B91E1D495A58006D4B9B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8YB8EX6W97;
 					};
 					5BA3B9321D495A58006D4B9B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +293,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBEBA191D66A52E00B51E3F /* icon.png in Resources */,
+				5BA59F2C1D5126F2006E9EB0 /* hiphophat.mp3 in Resources */,
+				5BA3B9521D495D2E006D4B9B /* back.png in Resources */,
+				5BA59F2E1D5126F2006E9EB0 /* hiphopsnare.mp3 in Resources */,
+				5BBEBA211D66A90E00B51E3F /* icon 2.png in Resources */,
+				5B36776C1D6B782100930382 /* hiphopkick.aiff in Resources */,
+				5BA59F321D5126F2006E9EB0 /* rocksnare.mp3 in Resources */,
+				5BA59F301D5126F2006E9EB0 /* rockkick.mp3 in Resources */,
+				5BA59F2A1D5126F2006E9EB0 /* bongolow.mp3 in Resources */,
+				5BBEBA1B1D66A68B00B51E3F /* Images-3.xcassets in Resources */,
+				5BA59F311D5126F2006E9EB0 /* rockride.mp3 in Resources */,
+				5BA59F2F1D5126F2006E9EB0 /* rockhat.mp3 in Resources */,
+				5BA59F2D1D5126F2006E9EB0 /* hiphopkick.mp3 in Resources */,
+				5BA3B9551D495D8D006D4B9B /* title.png in Resources */,
+				5B3677661D6B760300930382 /* hiphophat.caf in Resources */,
+				5BBEBA171D66A25F00B51E3F /* icon.png in Resources */,
 				5BA3B92D1D495A58006D4B9B /* LaunchScreen.storyboard in Resources */,
-				5BA3B92A1D495A58006D4B9B /* Assets.xcassets in Resources */,
+				5BA59F291D5126F2006E9EB0 /* bongohigh.mp3 in Resources */,
+				5BBEBA1F1D66A7EE00B51E3F /* icon.png in Resources */,
+				5B3677621D6B758D00930382 /* hiphopkick.caf in Resources */,
+				5B3677641D6B75F700930382 /* hiphopsnare.caf in Resources */,
+				5BA3B92A1D495A58006D4B9B /* icon.png in Resources */,
 				5BA3B9281D495A58006D4B9B /* Main.storyboard in Resources */,
+				5BA59F2B1D5126F2006E9EB0 /* bongomid.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +486,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "clouddrums iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clouddrums.clouddrums2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +503,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "clouddrums iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.clouddrums.clouddrums-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clouddrums.clouddrums2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +581,7 @@
 				5BA3B9491D495A58006D4B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA3B94A1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +590,7 @@
 				5BA3B94C1D495A58006D4B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA3B94D1D495A58006D4B9B /* Build configuration list for PBXNativeTarget "clouddrums iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +599,7 @@
 				5BA3B94F1D495A58006D4B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
